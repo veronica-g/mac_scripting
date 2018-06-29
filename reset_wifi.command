@@ -9,11 +9,11 @@ wifi_int=`networksetup -listallhardwareports | awk '/Hardware Port: Wi-Fi/{getli
 
 # power off the adapter
 networksetup -setairportpower $wifi_int off
-ifconfig $wifi_int down
+sudo ifconfig $wifi_int down
 
 # remove associated SSID plist files
 sudo rm /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist
 
 # power back on the adapter
 networksetup -setairportpower $wifi_int on
-ifconfig $wifi_int up
+sudo ifconfig $wifi_int up
