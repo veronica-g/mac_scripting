@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -e if [ -e /Library/Developer ]
+if [ -e /Library/Developer ]
 	then
 		gitversion=$(/usr/bin/git --version | awk '{print $3}')
 
