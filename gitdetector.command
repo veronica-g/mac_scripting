@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# git detector.
+# displays the installed git version on a mac
+#
+# Created by/last edited by: Veronica Goralski on 2 July 2018
+
 
 if [ -e /Library/Developer ]
 	then
