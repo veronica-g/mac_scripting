@@ -2,7 +2,6 @@
 #
 # Reset Mac OS wifi settings script
 # Created by and last edited by: Veronica Goralski, June 29 2018
-# MIT IS&T: http://ist.mit.edu
 
 
 wifi_int=`networksetup -listallhardwareports | awk '/Hardware Port: Wi-Fi/{getline; print $2}'`
