@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
 # Reset Mac OS wifi settings script
+# THIS IS A BETA!!!
 # Created by and last edited by: Veronica Goralski, June 29 2018
 
 
