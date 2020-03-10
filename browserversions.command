@@ -2,8 +2,8 @@
 ###################
 ##
 ## Mac Browser Detector and Version checker 
-## Created by Michael Goralski on 5 April 2018
-## Last edited 5 April 2018
+## Created by Veronica Goralski on 5 April 2018
+## Last edited 10 Mar 2020
 ##
 ####################
 
